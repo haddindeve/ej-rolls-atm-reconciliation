@@ -1,0 +1,39 @@
+# ATM Electronic Journal Parser and GL Reconciliation
+
+> Parses raw ATM electronic journal logs and reconciles transactions against general ledger statements.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/ej-rolls-atm-reconciliation
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Reconciling ATM activity means reading electronic journal logs - unstructured, machine-specific text - and matching them by hand against general ledger entries. It is slow, and the errors it produces are financial ones.
+
+A parser that turns raw EJ text into structured transaction records, then a reconciliation stage that matches those records against GL statements and reports what does not agree. The parser is tolerant of the format variation that makes these logs awkward to process.
+
+## Stack
+Language: Python, Parsing: Tolerant text parsing of EJ formats, Output: Structured reconciliation reports
+
+## Capabilities
+- Electronic journal parsing
+- Format-variation tolerance
+- Automated GL matching
+- Discrepancy reporting
+
+## Outcomes
+- Manual log reading replaced by structured extraction
+- Discrepancies surfaced as exceptions rather than found by inspection
+
+## FAQ
+Q: What is an ATM electronic journal?
+A: The machine's own transaction log - a plain-text record of every operation, with format varying by machine and vendor.
+
+Q: What does reconciliation produce?
+A: A report of matched transactions and, more importantly, the exceptions that do not agree with the ledger.
+
+Q: Why is parsing hard?
+A: EJ output is unstructured and varies between machines, so the parser has to tolerate format differences.
+
+Q: Is the code available?
+A: Private repository; access on request.

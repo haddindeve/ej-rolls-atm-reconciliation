@@ -1,0 +1,157 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://github.com/haddindeve#person",
+      "name": "Muhammad Tanveer",
+      "jobTitle": "Full-Stack AI Automation Engineer",
+      "email": "mailto:mtanveertahir66@gmail.com",
+      "url": "https://github.com/haddindeve",
+      "sameAs": [
+        "https://www.linkedin.com/in/muhammad-tanveer-advenno/",
+        "https://github.com/haddindeve"
+      ],
+      "description": "Full-stack AI automation engineer. I build agentic systems, browser and workflow automation, RAG pipelines and the production web platforms they run on - from Rust and Python services to Next.js dashboards and PHP/MySQL business systems.",
+      "knowsAbout": [
+        "3D food model menu",
+        "AI assistant routing",
+        "AI content generation",
+        "AI operating system",
+        "AI posture analysis",
+        "AI research agent",
+        "AI sales agent",
+        "AI video generation",
+        "AI-native ERP",
+        "AR restaurant menu",
+        "ATM electronic journal parser",
+        "B2B export catalogue",
+        "B2B lead generation AI",
+        "EJ log parsing",
+        "GL reconciliation",
+        "Google Maps ranking automation",
+        "IoT analytics dashboard",
+        "LinkedIn lead generation",
+        "NFC access control",
+        "POSIX threads C",
+        "Playwright browser automation",
+        "Rust accounting engine",
+        "SEO content automation",
+        "WhatsApp AI agent",
+        "agency management platform",
+        "algorithmic trading Python",
+        "augmented reality menu",
+        "automated lead generation",
+        "automated trading dashboard",
+        "automated video pipeline",
+        "biometric identity verification",
+        "client portal",
+        "concurrent programming",
+        "constraint satisfaction problem",
+        "corrective exercise platform",
+        "crypto trading bot",
+        "cycle tracking app",
+        "document OCR software",
+        "e-passport chip reading",
+        "eMRTD verification",
+        "employee portal",
+        "exporter buyer discovery",
+        "fabric shop software",
+        "face anti-spoofing",
+        "fitness CRM",
+        "gym management software",
+        "industrial IoT monitoring",
+        "inventory management POS",
+        "lead enrichment pipeline",
+        "liveness detection",
+        "local SEO automation",
+        "multi-branch accounting software",
+        "musculoskeletal assessment software",
+        "natural language search leads",
+        "offline-first PWA",
+        "order management system",
+        "orthopaedic casting stockinette",
+        "presentation attack detection",
+        "privacy-first mobile app",
+        "product catalogue CMS",
+        "prospect research automation",
+        "restaurant POS system",
+        "retail POS system",
+        "retail automation",
+        "scanned document processing",
+        "shortest path algorithm",
+        "smart manufacturing platform",
+        "social media automation",
+        "stockinette supplier",
+        "surgical instruments manufacturer website",
+        "table extraction AI",
+        "thread synchronisation",
+        "topical authority",
+        "tubular stockinette manufacturer",
+        "women's health app"
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "ATM Electronic Journal Parser and GL Reconciliation",
+      "description": "Parses raw ATM electronic journal logs and reconciles transactions against general ledger statements.",
+      "codeRepository": "https://github.com/haddindeve/ej-rolls-atm-reconciliation",
+      "author": {
+        "@id": "https://github.com/haddindeve#person"
+      },
+      "creator": {
+        "@id": "https://github.com/haddindeve#person"
+      },
+      "programmingLanguage": [
+        "Python",
+        "Tolerant text parsing of EJ formats",
+        "Structured reconciliation reports"
+      ],
+      "keywords": [
+        "ATM electronic journal parser",
+        "EJ log parsing",
+        "GL reconciliation",
+        "banking reconciliation automation",
+        "transaction matching",
+        "financial data parsing"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an ATM electronic journal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The machine's own transaction log - a plain-text record of every operation, with format varying by machine and vendor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does reconciliation produce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A report of matched transactions and, more importantly, the exceptions that do not agree with the ledger."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is parsing hard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EJ output is unstructured and varies between machines, so the parser has to tolerate format differences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the code available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Private repository; access on request."
+          }
+        }
+      ]
+    }
+  ]
+}
